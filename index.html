@@ -45,7 +45,7 @@
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
                 <div class="modal-body">
-                    <form>
+                    <form id="reserveModal">
                         <div class="row form-group">
                             <label for="numCampers" class="col-sm-6 col-form-label">Number of Campers</label>
                             <div class="col">
@@ -70,10 +70,10 @@
                             <label for="campsiteType" class="col-sm-6 col-form-label">Campsite Type</label>
                             <div class="col-2 btn-group btn-group-toggle" data-toggle="buttons">
                                 <label class="btn btn-success active">
-                                    <input type="radio" name="siteType" id="siteTent" autocomplete="off" checked> Tent
+                                    <input type="radio" value="tent" name="siteType" id="siteTent" autocomplete="off" checked> Tent
                                 </label>
                                 <label class="btn btn-primary">
-                                    <input type="radio" name="siteType" id="siteRV" autocomplete="off"> RV
+                                    <input type="radio" value="RV" name="siteType" id="siteRV" autocomplete="off"> RV
                                 </label>
                             </div>
                         </div>
@@ -276,7 +276,7 @@
         'key':'Fms3FS3kfD97Km',
         'author':'Leandro De La Cruz',
         'courseid':'boot.nucamp',
-        'assignment':'week3' 
+        'assignment':'week4' 
         }
        </script>
        <script src="https://sparrowweb.net/cmc/checkmycode.js"></script>
