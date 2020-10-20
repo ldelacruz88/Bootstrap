@@ -5,9 +5,12 @@
         "leandro",
         "list",
         "list unstyled",
+        "nucampsite",
         "scss",
         "tacklebox",
-        "unstyled"
+        "unstyled",
+        "watch",
+        "watch scss"
     ],
     "cSpell.ignoreWords": [
         "carousel"
